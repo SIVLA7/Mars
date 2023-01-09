@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whale studio SEO</title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="description" content="Описание">
+    <!--Favicons BEGIN-->
+    <meta name="theme-color" content="#fff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#17a5f4">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <!--Favicons END-->
+    <meta property="og:title" content="Заголовок">
+    <meta property="og:site_name" content="Название сайта">
+    <meta property="og:url" content="https://site-url.com">
+    <meta property="og:description" content="Описание сайта">
+    <meta property="og:image" content="img/preview-social-link/preview-social-link.png">
+    <meta property="vk:image" content="img/preview-social-link/preview-vk-link.png">
+    <!--Styles BEGIN-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!--style.@media(min-width: 768px){body{opacity:0;}}
+    -->
+    <!--Styles END-->
+    <!--window.onload = function () {document.querySelector("body").classList.add("visible");};-->
+    <!--Inline scripts BEGIN-->
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      function cth(c){document.documentElement.classList.add(c)}
+      'ontouchstart' in window?cth('touch'):cth('no-touch');
+      if(typeof InstallTrigger!=='undefined')cth('firefox');
+      if(/constructor/i.test(window.HTMLElement)||(function(p){return p.toString()==="[object SafariRemoteNotification]"})(!window['safari']||(typeof safari!=='undefined'&&safari.pushNotification)))cth('safari');
+      if(/*@cc_on!@*/false||!!document.documentMode){cth('ie');alert("Ваш бразуер устарел. Вы пользуетесь устаревшей версией браузера Internet Explorer. Данная версия браузера не поддреживает многие современные технологии, из-за чего многие страницы отображаются некорректно, а главное - на сайтах могут работать не все функции.");}
+      if(!(/*@cc_on!@*/false||!!document.documentMode)&&!!window.StyleMedia)cth('edge');
+      if(!!window.chrome&&(!!window.chrome.webstore||!!window.chrome.runtime))cth('chrome');
+      if(~navigator.appVersion.indexOf("Win"))cth('windows');
+      if(~navigator.appVersion.indexOf("Mac"))cth('osx');
+      if(~navigator.appVersion.indexOf("Linux"))cth('linux');
+    </script>
+    <!--Inline scripts END-->
+    <!--Scripts BEGIN-->
+    <script src="js/head-scripts.js"></script>
+    <!--Scripts END-->
+  </head>
+  <body><span class="page-bg"></span>
+    <div class="screen-ie"><img class="screen-ie__logo" src="img/logo.svg" alt=""></div>
+    <nav class="mobile-menu">
+      <div class="wrapper">
+        <button class="panel__menu-btn panel__menu-btn_mobile" aria-label="Кнопка закрытия мобильного меню" aria-hidden="true"><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span></button>
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="#results" aria-label="Кейсы">Кейсы</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="#prices" aria-label="Цены">Цены</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="#services" aria-label="Результат">Результат</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="#faq" aria-label="FAQ"> FAQ</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="#feedback" aria-label="Оставьте заявку">Оставьте заявку</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="wrapper-fluid">
+        <div class="header__inner">
+          <div class="panel"><a class="panel__logo" href="/" aria-label="Ссылка на главную страницу"><img class="panel__logo-img replace-svg" src="img/logo.svg" alt=""></a>
+            <nav class="panel__nav">
+              <ul class="panel__nav-list">
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#results" aria-label="Кейсы">Кейсы</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#prices" aria-label="Цены">Цены</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#services" aria-label="Результат">Результат</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#faq" aria-label="FAQ">FAQ</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#feedback" aria-label="Оставьте заявку">Оставьте заявку</a></li>
+              </ul>
+            </nav>
+            <div class="panel__phone"><span class="panel__phone-text">Связаться с нами</span><a class="panel__phone-number" href="tel:+375291382469" aria-label="Позвонить на номер 375 29 624 28 24">+375 29 138-24-69</a></div>
+            <button class="panel__menu-btn" aria-label="Кнопка открытия мобильного меню" aria-hidden="true"><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="header header-scroll">
+      <div class="wrapper-fluid">
+        <div class="header__inner">
+          <div class="panel"><a class="panel__logo" href="/" aria-label="Ссылка на главную страницу"><img class="panel__logo-img replace-svg" src="img/logo.svg" alt=""></a>
+            <nav class="panel__nav">
+              <ul class="panel__nav-list">
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#results" aria-label="Кейсы">Кейсы</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#prices" aria-label="Цены">Цены</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#services" aria-label="Результат">Результат</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#faq" aria-label="FAQ">FAQ</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#feedback" aria-label="Оставьте заявку">Оставьте заявку</a></li>
+              </ul>
+            </nav>
+            <div class="panel__phone"><span class="panel__phone-text">Связаться с нами</span><a class="panel__phone-number" href="tel:+375291382469" aria-label="Позвонить на номер 375 29 624 28 24">+375 29 138-24-69</a></div>
+            <button class="panel__menu-btn" aria-label="Кнопка открытия мобильного меню" aria-hidden="true"><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="banner" role="banner">
+      <div class="wrapper-fluid">
+        <div class="banner__main-content">
+          <div class="banner__wrap-text">
+            <h1 class="banner__title">Получай на <mark>300% больше</mark> потенциальных клиентов</h1>
+            <p class="banner__subtext">из интернета всего за 2 месяца используя технологию продвижения <mark>Mars 2.0!</mark> </p>
+          </div>
+          <div class="banner__wrap-form">
+            <form class="form"><span class="form__title">Сэкономьте свое время</span><span class="form__subtitle">оставьте заявку на консультацию</span><span class="form__message form__message_success">Благодарим за вашу заявку! Мы свяжемся с вами в ближайшее время.</span><span class="form__message form__message_error">Ошибка. К сожалению, нам не удалось отправить вашу заявку.</span>
+              <div class="form__wrap-fields">
+                <label class="form__wrap-field">
+                  <input class="form__field" type="text" placeholder="Имя" name="name" aria-label="Имя">
+                </label>
+                <label class="form__wrap-field">
+                  <input class="form__field" type="tel" placeholder="Номер телефона" name="phone" aria-label="Номер телефона">
+                </label>
+                <label class="form__wrap-field">
+                  <input class="form__field" type="text" placeholder="Сайт" name="site" aria-label="Сайт">
+                </label>
+              </div>
+              <button class="from-where-btn form__btn btn btn_bold" type="submit" aria-label="Кнопка отправки формы заявки" data-from-where="Форма в баннера">Хочу стать первым</button>
+            </form>
+          </div>
+          <div class="banner__wrap-mars">
+            <picture>
+              <source srcset="img/planet-banner.webp" type="image/webp">
+              <source srcset="img/planet-banner.png" type="image/png"><img class="banner__mars" src="img/planet-banner.png" alt="">
+            </picture>
+          </div>
+        </div><a class="banner__bottom-link text-underline" href="#results" aria-label="Результаты нашей работы">Результаты нашей работы</a>
+      </div>
+    </div>
+    <div class="results" id="results" role="region">
+      <div class="wrapper">
+        <div class="results__title-group"><span class="results__title block-title">Наши клиенты уже<br class="br-mobile"> <mark>обогнали</mark><br> своих конкурентов!</span><span class="results__subtitle block-subtitle">Результат нашей работы<br class="br-mobile"> над SEO - продвижением.</span></div>
+      </div>
+      <div class="results__wrap-slider wrapper">
+        <div class="results__slider">
+          <div class="results__slider-item">
+            <div class="results__slider-item-left">
+              <div class="results__slider-item-about"><span class="results__slider-item-subtitle">Кейс по SEO-продвижению в тематике</span><span class="results__slider-item-title">«Продажа кованых изделий»</span><a class="results__slider-item-case-link text-underline text-underline_blue" href="www.kovaniyher.by" aria-label="Перейти на kovaniyher.by" target="_blank">www.kovaniyher.by</a></div><em>Какие цели были поставлены?</em>
+              <p>Продвижение с целью снижения затрат на контекст, увеличения посетителей на сайта и количества заявок на обслуживание.</p><em class="results__slider-item-diagram-title">Общая динамика позиций:</em>
+              <ul class="results__slider-item-diagrams">
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#EE6944" data-animationStep="1" data-custom-text="2" data-percent="12.5"><span class="results__slider-item-diagram-info">в топ 3</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#4FDE8D" data-animationStep="1" data-custom-text="2" data-percent="25"><span class="results__slider-item-diagram-info">в топ 5</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#00B2FF" data-animationStep="1" data-custom-text="3" data-percent="37.5"><span class="results__slider-item-diagram-info">в топ 10</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#E4608D" data-animationStep="1" data-custom-text="14" data-percent="50"><span class="results__slider-item-diagram-info">в топ 30</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#5E1D79" data-animationStep="1" data-custom-text="2" data-percent="78"><span class="results__slider-item-diagram-info">в топ 100</span></li>
+              </ul>
+            </div>
+            <div class="results__slider-item-right">
+              <div class="results__slider-item-percent"><span class="results__slider-item-percent-text text-underline">Рост аудитории</span><span class="results__slider-item-percent-number">4306 %</span></div><em>Результат после 4х месяцев работы:</em>
+              <ul class="results__slider-item-search-systems">
+                <li class="results__slider-item-search-system"><span class="results__slider-item-search-system-title">Динамика позиций проекта.<br> Поисковая система<img class="results__slider-item-search-system-title-img" src="img/logo-yandex.png" alt=""></span>
+                  <div class="results__slider-item-search-system-wrap-img btn-popup" data-popup-key="image" data-load-src-image="img/data-yandex.png" data-load-src-large-image="img/data-yandex-large.png">
+                    <picture>
+                      <source srcset="img/data-yandex.webp" type="image/webp">
+                      <source srcset="img/data-yandex.png" type="image/png"><img class="results__slider-item-search-system-img" src="img/data-yandex.png" alt="">
+                    </picture>
+                  </div>
+                </li>
+                <li class="results__slider-item-search-system"><span class="results__slider-item-search-system-title">Динамика позиций проекта.<br> Поисковая система<img class="results__slider-item-search-system-title-img" src="img/logo-google.png" alt=""></span>
+                  <div class="results__slider-item-search-system-wrap-img btn-popup" data-popup-key="image" data-load-src-image="img/data-google.png" data-load-src-large-image="img/data-google-large.png">
+                    <picture>
+                      <source srcset="img/data-google.webp" type="image/webp">
+                      <source srcset="img/data-google.png" type="image/png"><img class="results__slider-item-search-system-img" src="img/data-google.png" alt="">
+                    </picture>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="results__slider-item">
+            <div class="results__slider-item-left">
+              <div class="results__slider-item-about"><span class="results__slider-item-subtitle">Кейс по SEO-продвижению в тематике</span><span class="results__slider-item-title">«Продажа кованых изделий» в две строки</span><a class="results__slider-item-case-link" href="www.kovaniyher.by" aria-label="Перейти на kovaniyher.by" target="_blank">www.kovaniyher.by</a></div><em>Какие цели были поставлены?</em>
+              <p>Продвижение с целью снижения затрат на контекст, увеличения посетителей на сайта и количества заявок на обслуживание. Продвижение с целью снижения затрат на контекст, увеличения посетителей на сайта и количества заявок на обслуживание.</p><em class="results__slider-item-diagram-title">Общая динамика позиций:</em>
+              <ul class="results__slider-item-diagrams">
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#EE6944" data-animationStep="1" data-custom-text="2" data-percent="87"><span class="results__slider-item-diagram-info">в топ 3</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#4FDE8D" data-animationStep="1" data-custom-text="2" data-percent="5"><span class="results__slider-item-diagram-info">в топ 5</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#00B2FF" data-animationStep="1" data-custom-text="3" data-percent="65"><span class="results__slider-item-diagram-info">в топ 10</span></li>
+              </ul>
+            </div>
+            <div class="results__slider-item-right">
+              <div class="results__slider-item-percent"><span class="results__slider-item-percent-text">Рост аудитории</span><span class="results__slider-item-percent-number">2406 %</span></div><em>Результат после 4х месяцев работы:</em>
+              <ul class="results__slider-item-search-systems">
+                <li class="results__slider-item-search-system"><span class="results__slider-item-search-system-title">Динамика позиций проекта.<br> Поисковая система<img class="results__slider-item-search-system-title-img" src="img/logo-yandex.png" alt=""></span>
+                  <div class="results__slider-item-search-system-wrap-img btn-popup" data-popup-key="image" data-load-src-image="img/data-yandex.png" data-load-src-large-image="img/data-yandex-large.png">
+                    <picture>
+                      <source srcset="img/data-yandex.webp" type="image/webp">
+                      <source srcset="img/data-yandex.png" type="image/png"><img class="results__slider-item-search-system-img" src="img/data-yandex.png" alt="">
+                    </picture>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="results__slider-item">
+            <div class="results__slider-item-left">
+              <div class="results__slider-item-about"><span class="results__slider-item-subtitle">Кейс по SEO-продвижению в тематике</span><span class="results__slider-item-title">«Продажа кованых изделий»</span><a class="results__slider-item-case-link" href="www.kovaniyher.by" aria-label="Перейти на kovaniyher.by" target="_blank">www.kovaniyher.by</a></div><em>Какие цели были поставлены?</em>
+              <p>Продвижение с целью снижения затрат на контекст, увеличения посетителей на сайта и количества заявок на обслуживание на сайта и количества заявок на обслуживание.</p>
+              <p>Продвижение с целью снижения затрат на контекст, увеличения посетителей на сайта и количества заявок.</p><em class="results__slider-item-diagram-title">Общая динамика позиций:</em>
+              <ul class="results__slider-item-diagrams">
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#4FDE8D" data-animationStep="1" data-custom-text="2" data-percent="25"><span class="results__slider-item-diagram-info">в топ 5</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#00B2FF" data-animationStep="1" data-custom-text="3" data-percent="100"><span class="results__slider-item-diagram-info">в топ 10</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#E4608D" data-animationStep="1" data-custom-text="14" data-percent="90"><span class="results__slider-item-diagram-info">в топ 30</span></li>
+                <li class="results__slider-item-diagram" data-animation="0" data-fgcolor="#5E1D79" data-animationStep="1" data-custom-text="2" data-percent="25"><span class="results__slider-item-diagram-info">в топ 100</span></li>
+              </ul>
+            </div>
+            <div class="results__slider-item-right">
+              <div class="results__slider-item-percent"><span class="results__slider-item-percent-text">Рост аудитории</span><span class="results__slider-item-percent-number">9999 %</span></div><em>Результат после 4х месяцев работы:</em>
+              <ul class="results__slider-item-search-systems">
+                <li class="results__slider-item-search-system"><span class="results__slider-item-search-system-title">Динамика позиций проекта.<br> Поисковая система<img class="results__slider-item-search-system-title-img" src="img/logo-yandex.png" alt=""></span>
+                  <div class="results__slider-item-search-system-wrap-img btn-popup" data-popup-key="image" data-load-src-image="img/data-yandex.png" data-load-src-large-image="img/data-yandex-large.png">
+                    <picture>
+                      <source srcset="img/data-yandex.webp" type="image/webp">
+                      <source srcset="img/data-yandex.png" type="image/png"><img class="results__slider-item-search-system-img" src="img/data-yandex.png" alt="">
+                    </picture>
+                  </div>
+                </li>
+                <li class="results__slider-item-search-system"><span class="results__slider-item-search-system-title">Динамика позиций проекта.<br> Поисковая система<img class="results__slider-item-search-system-title-img" src="img/logo-google.png" alt=""></span>
+                  <div class="results__slider-item-search-system-wrap-img btn-popup" data-popup-key="image" data-load-src-image="img/data-google.png" data-load-src-large-image="img/data-google-large.png">
+                    <picture>
+                      <source srcset="img/data-google.webp" type="image/webp">
+                      <source srcset="img/data-google.png" type="image/png"><img class="results__slider-item-search-system-img" src="img/data-google.png" alt="">
+                    </picture>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="results__slider-arrows">
+          <button class="results__slider-arrow results__slider-arrow_prev" aria-label="Кнопка для перехода на предыдущий кейс">
+            <svg class="results__slider-arrow-icon" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 1L1 4L4 7" stroke="#EE6944"></path>
+            </svg><span class="results__slider-arrow-text text-underline text-underline_orange">Предыдущий кейс</span>
+          </button>
+          <button class="results__slider-arrow results__slider-arrow_next" aria-label="Кнопка для перехода на следующий кейс"><span class="results__slider-arrow-text text-underline text-underline_orange">Следующий кейс</span>
+            <svg class="results__slider-arrow-icon" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 7L4 4L1 1" stroke="#EE6944"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="results__slider-dots"></div>
+      </div>
+    </div>
+    <div class="prices" id="prices" role="region">
+      <div class="wrapper">
+        <div class="prices__inner">
+          <div class="prices__title-group"><span class="prices__title block-title">Тарифы на поисковое<br> <mark>продвижение сайта</mark><br></span><span class="prices__subtitle block-subtitle">Выбери тот, который подходит именно тебе</span></div>
+          <ul class="prices__list">
+            <li class="prices__wrap-item">
+              <div class="prices__item">
+                <div class="prices__item-top">
+                  <div class="prices__item-wrap-img">
+                    <picture>
+                      <source srcset="." data-srcset="img/planet-1.webp" type="image/webp">
+                      <source srcset="." data-srcset="img/planet-1.png" type="image/png"><img class="prices__item-img lazy" src="." data-src="img/planet-1.png" alt="">
+                    </picture>
+                  </div>
+                  <div class="prices__item-wrap-info"><span class="prices__item-name">Малый бизнес</span><span class="prices__item-price"><span class="prices__item-price-text">от</span><span class="prices__item-price-number">170 $</span></span></div>
+                </div>
+                <div class="prices__item-bottom">
+                  <div class="prices__item-wrap-text">
+                    <ul>
+                      <li>- Общий аудит сайта (SEO, юзабилити, тексты);</li>
+                      <li>- Анализ конкурентной среды (определим основных конкурентов, их преимущества и недостатки, выстроим стратегию продвижения);</li>
+                      <li>- Работа с ключевыми словами (составление семантического ядра, список ключевых слов, по которым будем продвигать сайт); </li>
+                      <li>- Кластеризация ключевых слов и составление карты релевантности для 5 страниц (распределим, какие страницы по каким запросам будем продвигать);</li>
+                      <li>- Работа с ключевыми словами (составление семантического ядра, список ключевых слов, по которым будем продвигать сайт); </li>
+                      <li>- Кластеризация ключевых слов и составление карты релевантности для 5 страниц (распределим, какие страницы по каким запросам будем продвигать);</li>
+                    </ul>
+                    <button class="prices__item-btn-hidden prices__item-btn btn-popup btn from-where-btn" data-popup-key="feedback" aria-label="Кнопка вызова всплывающего окна с формой обратной связи" data-from-where="Прайс Малый бизнес - от 170 $">Хочу стать первым</button>
+                  </div>
+                  <button class="prices__item-btn-control prices__item-btn btn btn_transparent" aria-label="Кнопка показа подробной информации о тарифе"><span class="btn__text" data-text-show="Подробнее" data-text-hide="Скрыть">Подробнее</span></button>
+                </div>
+              </div>
+            </li>
+            <li class="prices__wrap-item">
+              <div class="prices__item">
+                <div class="prices__item-top">
+                  <div class="prices__item-wrap-img">
+                    <picture>
+                      <source srcset="." data-srcset="img/planet-2.webp" type="image/webp">
+                      <source srcset="." data-srcset="img/planet-2.png" type="image/png"><img class="prices__item-img lazy" src="." data-src="img/planet-2.png" alt="">
+                    </picture>
+                  </div>
+                  <div class="prices__item-wrap-info"><span class="prices__item-name">Средний бизнес</span><span class="prices__item-price"><span class="prices__item-price-text">от</span><span class="prices__item-price-number">300 $</span></span></div>
+                </div>
+                <div class="prices__item-bottom">
+                  <div class="prices__item-wrap-text">
+                    <ul>
+                      <li>- Общий аудит сайта (SEO, юзабилити, тексты);</li>
+                      <li>- Анализ конкурентной среды (определим основных конкурентов, их преимущества и недостатки, выстроим стратегию продвижения);</li>
+                      <li>- Работа с ключевыми словами (составление семантического ядра, список ключевых слов, по которым будем продвигать сайт); </li>
+                      <li>- Кластеризация ключевых слов и составление карты релевантности для 5 страниц (распределим, какие страницы по каким запросам будем продвигать);</li>
+                    </ul>
+                    <button class="prices__item-btn-hidden prices__item-btn btn-popup btn from-where-btn" data-popup-key="feedback" aria-label="Кнопка вызова всплывающего окна с формой обратной связи" data-from-where="Прайс Средний бизнес - от 300 $">Хочу стать первым</button>
+                  </div>
+                  <button class="prices__item-btn-control prices__item-btn btn btn_transparent" aria-label="Кнопка показа подробной информации о тарифе"><span class="btn__text" data-text-show="Подробнее" data-text-hide="Скрыть">Подробнее</span></button>
+                </div>
+              </div>
+            </li>
+            <li class="prices__wrap-item">
+              <div class="prices__item">
+                <div class="prices__item-top">
+                  <div class="prices__item-wrap-img">
+                    <picture>
+                      <source srcset="." data-srcset="img/planet-3.webp" type="image/webp">
+                      <source srcset="." data-srcset="img/planet-3.png" type="image/png"><img class="prices__item-img lazy" src="." data-src="img/planet-3.png" alt="">
+                    </picture>
+                  </div>
+                  <div class="prices__item-wrap-info"><span class="prices__item-name">Лидеры рынка</span><span class="prices__item-price"><span class="prices__item-price-text">от</span><span class="prices__item-price-number">170 $</span></span></div>
+                </div>
+                <div class="prices__item-bottom">
+                  <div class="prices__item-wrap-text">
+                    <ul>
+                      <li>- Общий аудит сайта (SEO, юзабилити, тексты);</li>
+                      <li>- Анализ конкурентной среды (определим основных конкурентов, их преимущества и недостатки, выстроим стратегию продвижения);</li>
+                      <li>- Работа с ключевыми словами (составление семантического ядра, список ключевых слов, по которым будем продвигать сайт); </li>
+                    </ul>
+                    <button class="prices__item-btn-hidden prices__item-btn btn-popup btn from-where-btn" data-popup-key="feedback" aria-label="Кнопка вызова всплывающего окна с формой обратной связи" data-from-where="Прайс Лидеры рынка - от 170 $">Хочу стать первым</button>
+                  </div>
+                  <button class="prices__item-btn-control prices__item-btn btn btn_transparent" aria-label="Кнопка показа подробной информации о тарифе"><span class="btn__text" data-text-show="Подробнее" data-text-hide="Скрыть">Подробнее</span></button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="prices__wrap-bottom-btn">Нужны индивидуальные условия? 
+            <button class="btn-popup prices__bottom-btn text-underline text-underline_blue from-where-btn" data-popup-key="feedback" aria-label="Ссылка на форму" data-from-where="Форма с секции цен">Ссылка на форму.</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="services" role="region">
+      <picture>
+        <source srcset="." data-srcset="img/planet-mars.webp" type="image/webp">
+        <source srcset="." data-srcset="img/planet-mars.png" type="image/png"><img class="services__mars-img lazy" src="." data-src="img/planet-mars.png" alt="">
+      </picture>
+      <div class="services__mars"></div>
+      <div class="wrapper">
+        <div class="services__inner">
+          <picture>
+            <source srcset="." data-srcset="img/planet-earth-small.webp" type="image/webp">
+            <source srcset="." data-srcset="img/planet-earth-small.png" type="image/png"><img class="services__decor-img services__decor-img_left lazy" src="." data-src="img/planet-earth-small.png" alt="">
+          </picture><img class="services__mars-glow lazy" src="." data-src="img/planet-data/planet-glow.png" alt="">
+          <div id="mars-model"></div><span class="services__title block-title">Что вы в результате<br> <mark>получите?</mark><br></span>
+          <ul class="services__list">
+            <li class="services__item"><span class="services__item-title">Рост аудитории</span>
+              <p class="services__item-text">Доверие к результатам поиска в несколько раз выше, чем к любой<br> рекламе – вы получаете максимум аудитории, лояльной к вам.</p>
+            </li>
+            <li class="services__item"><span class="services__item-title">Рост продаж</span>
+              <p class="services__item-text"><em>Раскрутка сайта</em> – это не только рост аудитории, еще это работа над<br> повышением конверсии и улучшением юзабилити.</p>
+            </li>
+            <li class="services__item"><span class="services__item-title">Стабильность продаж</span>
+              <p class="services__item-text">Продвижение под ключ дает постоянный трафик даже после<br> завершения работ, так как результаты SEO невозможны выключить<br> как рекламу</p>
+            </li>
+            <li class="services__item"><span class="services__item-title">Узнаваемость вашего бренда</span>
+              <p class="services__item-text">Ваш сайт в ТОПе вызывает доверие, а также повышает популярность<br> и позитивный имидж вашего бренда</p>
+            </li>
+          </ul>
+          <button class="from-where-btn services__btn btn-popup btn" data-popup-key="feedback" data-from-where="Секция 'Что вы получите'" aria-label="Кнопка вызова всплывающего окна с формой обратной связи">Хочу стать первым</button>
+        </div>
+      </div>
+    </div>
+    <div class="faq" id="faq" role="region">
+      <div class="wrapper"><span class="faq__title block-title">Популярные вопросы</span>
+        <ul class="faq__list">
+          <li class="faq__item">
+            <div class="faq__item-top"><span class="faq__item-title">Зачем мне SEO?</span><span class="faq__item-icon">
+                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L8 8L15 1" stroke="white"></path>
+                </svg></span></div>
+            <div class="faq__item-text">
+              <p>Из поисковой системы клиенты заходят на Ваш сайт осознанно, поскольку вводят в строку поиска конкретный запрос. Наша задача сделать так, чтобы одна из страниц Вашего сайта соответствовала запросу пользователя. Если Вы находитесь например на 28 (а по статистике дальше 4-5 страницы выдачи поисковой системы, Вас вряд-ли не найдет.</p>
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-top"><span class="faq__item-title">Как поисковая система выбирает, какой сайт показать на запрос пользователя?</span><span class="faq__item-icon">
+                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L8 8L15 1" stroke="white"></path>
+                </svg></span></div>
+            <div class="faq__item-text">
+              <p>Из поисковой системы клиенты заходят на Ваш сайт осознанно, поскольку вводят в строку поиска конкретный запрос. Наша задача сделать так, чтобы одна из страниц Вашего сайта соответствовала запросу пользователя. Если Вы находитесь например на 28 (а по статистике дальше 4-5 страницы выдачи поисковой системы, Вас вряд-ли не найдет.</p>
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-top"><span class="faq__item-title">Как скоро мой сайт будет на 1-м месте?</span><span class="faq__item-icon">
+                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L8 8L15 1" stroke="white"></path>
+                </svg></span></div>
+            <div class="faq__item-text">
+              <p>Из поисковой системы клиенты заходят на Ваш сайт осознанно, поскольку вводят в строку поиска конкретный запрос. Наша задача сделать так, чтобы одна из страниц Вашего сайта соответствовала запросу пользователя. Если Вы находитесь например на 28 (а по статистике дальше 4-5 страницы выдачи поисковой системы, Вас вряд-ли не найдет.</p>
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-top"><span class="faq__item-title">Сайт на первой странице, а клиентов нет, почему?</span><span class="faq__item-icon">
+                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L8 8L15 1" stroke="white"></path>
+                </svg></span></div>
+            <div class="faq__item-text">
+              <p>Из поисковой системы клиенты заходят на Ваш сайт осознанно, поскольку вводят в строку поиска конкретный запрос. Наша задача сделать так, чтобы одна из страниц Вашего сайта соответствовала запросу пользователя. Если Вы находитесь например на 28 (а по статистике дальше 4-5 страницы выдачи поисковой системы, Вас вряд-ли не найдет.</p>
+              <p>Из поисковой системы клиенты заходят на Ваш сайт осознанно, поскольку вводят в <em>строку</em> поиска конкретный запрос.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="feedback" id="feedback" role="region">
+      <div class="wrapper">
+        <div class="feedback__inner">
+          <div class="feedback__bg">
+            <div class="feedback__bg-img"></div><span class="feedback__bg-text">Стань лучшим на этой планете</span>
+          </div>
+          <div class="feedback__wrap-form">
+            <form class="form"><span class="form__title">Сэкономьте свое время</span><span class="form__subtitle">оставьте заявку на консультацию</span><span class="form__message form__message_success">Благодарим за вашу заявку! Мы свяжемся с вами в ближайшее время.</span><span class="form__message form__message_error">Ошибка. К сожалению, нам не удалось отправить вашу заявку.</span>
+              <div class="form__wrap-fields">
+                <label class="form__wrap-field">
+                  <input class="form__field" type="text" placeholder="Имя" name="name" aria-label="Имя">
+                </label>
+                <label class="form__wrap-field">
+                  <input class="form__field" type="tel" placeholder="Номер телефона" name="phone" aria-label="Номер телефона">
+                </label>
+                <label class="form__wrap-field">
+                  <input class="form__field" type="text" placeholder="Сайт" name="site" aria-label="Сайт">
+                </label>
+              </div>
+              <button class="from-where-btn form__btn btn btn_bold" type="submit" aria-label="Кнопка отправки формы заявки" data-from-where="Форма внизу сайта">Хочу стать первым</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="wrapper-fluid">
+          <div class="panel"><a class="panel__logo" href="/" aria-label="Ссылка на главную страницу"><img class="panel__logo-img replace-svg" src="img/logo.svg" alt=""></a>
+            <nav class="panel__nav">
+              <ul class="panel__nav-list">
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#results" aria-label="Кейсы">Кейсы</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#prices" aria-label="Цены">Цены</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#services" aria-label="Результат">Результат</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#faq" aria-label="FAQ">FAQ</a></li>
+                <li class="panel__nav-item"><a class="panel__nav-link" href="#feedback" aria-label="Оставьте заявку">Оставьте заявку</a></li>
+              </ul>
+            </nav>
+            <div class="panel__phone"><span class="panel__phone-text">Связаться с нами</span><a class="panel__phone-number" href="tel:+375291382469" aria-label="Позвонить на номер 375 29 624 28 24">+375 29 138-24-69</a></div>
+            <button class="panel__menu-btn" aria-label="Кнопка открытия мобильного меню" aria-hidden="true"><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span><span class="panel__menu-btn-line"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer__middle">
+        <div class="wrapper-fluid">
+          <div class="footer__middle-inner">
+            <div class="footer__middle-group"><span class="footer__middle-group-title">E-mail:</span><a class="footer__link text-underline" href="mailto:info@sivenkov.by" aria-label="Написать на почту whalestudio@gmail.com">info@sivenkov.by</a></div>
+            <div class="footer__middle-group"><span class="footer__middle-group-title">Адрес:</span>
+              <address>г.Минск</address><a class="footer__link-map footer__link text-underline text-underline_blue" href="#" target="_blank" aria-label="Посмотреть наше месторасположение на карте">посмотреть на карте</a>
+            </div>
+            <div class="footer__middle-group"><span class="footer__middle-group-title">Мы в соц.сетях:</span><a class="footer__link footer__link_social text-underline" href="#" target="_blank" aria-label="VKontakte">vkontakte</a><a class="footer__link footer__link_social text-underline" href="#" target="_blank" aria-label="Instagram">instagram</a><a class="footer__link footer__link_social text-underline" href="#" target="_blank" aria-label="Facebook">facebook</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="wrapper-fluid">
+          <div class="footer__bottom-inner">
+            <p class="footer__bottom-text">Посмотреть отзывы о нашей<br> работе можно <a href="#" target="_blank" class="footer__link footer__bottom-text-link text-underline text-underline_blue" aria-label="Посмотреть отзывы">тут</a></p><span class="footer__bottom-copyright">© 2019 Sivenkov</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="popup popup-feedback" data-popup-key="feedback" role="dialog">
+      <div class="popup__wrap-content">
+        <div class="popup__content">
+          <button class="popup__close" aria-label="Закрыть модальное окно"></button>
+          <form class="form"><span class="form__title">Сэкономьте свое время</span><span class="form__subtitle">оставьте заявку на консультацию</span><span class="form__message form__message_success">Благодарим за вашу заявку! Мы свяжемся с вами в ближайшее время.</span><span class="form__message form__message_error">Ошибка. К сожалению, нам не удалось отправить вашу заявку.</span>
+            <div class="form__wrap-fields">
+              <label class="form__wrap-field">
+                <input class="form__field" type="text" placeholder="Имя" name="name" aria-label="Имя">
+              </label>
+              <label class="form__wrap-field">
+                <input class="form__field" type="tel" placeholder="Номер телефона" name="phone" aria-label="Номер телефона">
+              </label>
+              <label class="form__wrap-field">
+                <input class="form__field" type="text" placeholder="Сайт" name="site" aria-label="Сайт">
+              </label>
+            </div>
+            <button class="form__btn btn btn_bold" type="submit" aria-label="Кнопка отправки формы заявки">Хочу стать первым</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup popup-image" data-popup-key="image" role="dialog">
+      <div class="popup__wrap-content">
+        <div class="popup__content">
+          <button class="popup__close" aria-label="Закрыть модальное окно"></button>
+          <div class="popup-image__wrap-img"><img class="popup-image__img" src="." alt=""></div>
+        </div>
+      </div>
+    </div>
+    <!--Scripts BEGIN-->
+    <script src="js/main.js"></script>
+    <script src="js/vendor.js"></script>
+    <!--Scripts END-->
+  </body>
+</html>
